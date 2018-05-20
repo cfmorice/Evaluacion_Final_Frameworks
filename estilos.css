@@ -1,0 +1,51 @@
+.logo {
+  width: 90%;
+}
+.barra-superior {
+  min-height: 13rem;
+  padding-top: 1rem !important;
+}
+.slogan {
+  font-family: cursive;
+}
+.icons {
+  width: 90%;
+  padding-top: 1rem !important;
+}
+.contenedor-principal {
+  padding-top: 15rem !important;
+  background: url(../img/img-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-9 {
+  max-height: 600px;
+}
+.parrafo-1 {
+  margin-left: 290px;
+}
+.entrada-blog {
+  padding: .75rem !important;
+}
+.comentarios {
+  margin-bottom: 2rem;
+  padding: 0.15rem !important;
+  border-radius: 25px;
+}
+.img-7 {
+  width: 8.33%;
+  margin-top: 1.5rem;
+  padding-right: .25rem !important;
+  float: left;
+}
+.parrafo-2 {
+  margin-left: 310px;
+}
+@media (max-width: 600px) {
+  .img-blog {
+    width: 100%;
+  }
+  .parrafo-1, .parrafo-2 {
+    margin-left: 0px;
+  }
+}
