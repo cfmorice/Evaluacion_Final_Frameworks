@@ -1,8 +1,13 @@
+body {
+  background: url(../img/img-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .logo {
   width: 90%;
 }
 .barra-superior {
-  min-height: 13rem;
+  height: 10rem;
   padding-top: 1rem !important;
 }
 .slogan {
@@ -14,9 +19,6 @@
 }
 .contenedor-principal {
   padding-top: 15rem !important;
-  background: url(../img/img-10.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .img-9 {
   max-height: 600px;
@@ -28,7 +30,6 @@
   padding: .75rem !important;
 }
 .comentarios {
-  margin-bottom: 2rem;
   padding: 0.15rem !important;
   border-radius: 25px;
 }
@@ -40,6 +41,9 @@
 }
 .parrafo-2 {
   margin-left: 310px;
+}
+p {
+  text-align: justify;
 }
 @media (max-width: 600px) {
   .img-blog {
